@@ -13,32 +13,34 @@
 
 ## Structues
 ```
-.
-+-- src
-|   +-- assets
-|       +-- javascript
-|           +-- main.js                     // import all javascript files. entry point
-|           +-- sample.js                   // dummy
-|       +-- scss
-|           +-- config
-|               +-- _variables.scss         // define css variables
-|           +-- pages                       // style for pages
-|           +-- partials                    // style for partials of page
-|           +-- main.scss                   // import all scss files. entry point
-|           +-- sample.scss                 // dummy
-|   +-- static                              // output of webpacking. 
-|   +-- views
-|       +-- index.html                     
-|   +-- app.js
-.babelrc                                    // babel config file
-.env                                        // help to use process variables
-.gitignore
-package-lock.json
-package.json
-README.md
-webpack.config.js                           // webpack config file
-```
 
+📦src
+ ┣ 📂assets
+ ┃ ┣ 📂javascript
+ ┃ ┃ ┣ 📜main.js                            // import all javascript files. entry point
+ ┃ ┃ ┗ 📜sample.js                          // dummy
+ ┃ ┗ 📂scss
+ ┃ ┃ ┣ 📂config
+ ┃ ┃ ┃ ┗ 📜_variables.scss                  // define css variables
+ ┃ ┃ ┣ 📂pages                              // style for pages
+ ┃ ┃ ┣ 📂partials                           // style for partials of page
+ ┃ ┃ ┣ 📜main.scss                          // import all scss files. entry point
+ ┃ ┃ ┗ 📜sample.scss                        // dummy
+ ┣ 📂static                                 // output of webpacking
+ ┃ ┣ 📜main.js
+ ┃ ┗ 📜styles.css
+ ┣ 📂views
+ ┃ ┗ 📜index.html
+ ┗ 📜app.js
+ 📜.babelrc                                 // babel config file
+ 📜.env                                     // help to use process variables
+ 📜.gitignore
+ 📜package-lock.json
+ 📜package.json
+ 📜README.md
+ 📜webpack.config.js                        // webpack config file
+ ```
+ 
 ## How to use
 
 
