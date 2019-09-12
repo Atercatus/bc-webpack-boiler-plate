@@ -1,15 +1,17 @@
 # bc-webpack-boiler-plate
 
-부스트 캠퍼 분들과 함께 만드는 보일러 플레이트 입니다.
+<p>
+  부스트 캠퍼 분들과 함께 만드는 보일러 플레이트 입니다.
 웹팩 옵션은 현재 babel 과 scss loader 정도만 설정되어있습니다.
-서로 자유롭게 의견을 나누면서 issue와 PR을 이용하여 오픈소스를 경험해볼수 있는 작은 시작이 되었으면 좋겠습니다.
+서로 자유롭게 의견을 나누면서 issue와 PR을 이용하여 오픈소스를 경험해볼수 있는 작은 시작이 되었으면 좋겠습니다.</p>
 
-## 규칙
-<ol>
-  <li> 모두가 주인이며 모두가 자유롭게 의견을 낼 수 있고 이는 모두 존중되어야 합니다.
-  <li> 발생하는 모든 오류와 개선사항은 issues 에 개시를 하여 모두가 볼 수 있게 합니다. slack 을 통한 자세한 대화는 지양합니다.
-  <li> 완벽하지 않아도 좋습니다. 모두가 함께 하는 프로젝트의 한발자국이 되었으면 좋겠습니다.
-</ol>
+<p>
+  현재는 제가 프론트 개발에서 사용하는 간단한 디렉토리 구조만 구성되어 있습니다. 다들 자신들이 사용하는 좋은 방법들을 제시해주세요!<br>
+ 추후에 프론트와 백엔드 개발 시 사용되는 디렉토리 구조를 분리하고 development 모드와 product 모드를 선택할 수 있게 script를 추가하려고 합니다. <br>
+  캠퍼분들이 사용하시는 방법이나 아시는 것들을 공유해주세요! 작은 것이라도 좋으니 많이 공유 부탁드립니다.
+</p>
+
+
 
 ## Structues
 ```
@@ -42,7 +44,25 @@
  ```
  
 ## How to use
-
+```
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:assets": "cross-env WEBPACK_ENV=development webpack -w",
+    "dev:server": "nodemon src/app.js"
+  }
+```
+우선 모듈을 설치합니다.
+```
+$ npm install
+```
+웹팩을통한 빌드를 합니다. 
+```
+$ npm run dev:assets
+```
+src/app.js 를 실행합니다.
+```
+$ npm run dev:server
+```
 
 [참조-1](https://poiemaweb.com/es6-babel-webpack-1) <br>
 
