@@ -3576,17 +3576,6 @@ eval("function sample() {\n  console.log(\"sample\");\n}\n\nsample();\n\n//# sou
 
 /***/ }),
 
-/***/ "./src/assets/scss/main.scss":
-/*!***********************************!*\
-  !*** ./src/assets/scss/main.scss ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/assets/scss/main.scss?");
-
-/***/ }),
-
 /***/ 0:
 /*!*****************************************************************************************!*\
   !*** multi @babel/polyfill ./src/assets/javascript/main.js ./src/assets/scss/main.scss ***!
@@ -3594,7 +3583,7 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("__webpack_require__(/*! @babel/polyfill */\"./node_modules/@babel/polyfill/lib/index.js\");\n__webpack_require__(/*! C:\\Users\\AterCatus\\Desktop\\BOOSTCAMP MEMBERSHIP\\bc-webpack-boiler-plate\\src\\assets\\javascript\\main.js */\"./src/assets/javascript/main.js\");\nmodule.exports = __webpack_require__(/*! C:\\Users\\AterCatus\\Desktop\\BOOSTCAMP MEMBERSHIP\\bc-webpack-boiler-plate\\src\\assets\\scss\\main.scss */\"./src/assets/scss/main.scss\");\n\n\n//# sourceURL=webpack:///multi_@babel/polyfill_./src/assets/javascript/main.js_./src/assets/scss/main.scss?");
+eval("__webpack_require__(/*! @babel/polyfill */\"./node_modules/@babel/polyfill/lib/index.js\");\n__webpack_require__(/*! C:\\Users\\tony0\\Desktop\\github\\bc-webpack-boiler-plate\\src\\assets\\javascript\\main.js */\"./src/assets/javascript/main.js\");\n!(function webpackMissingModule() { var e = new Error(\"Cannot find module 'C:\\\\Users\\\\tony0\\\\Desktop\\\\github\\\\bc-webpack-boiler-plate\\\\src\\\\assets\\\\scss\\\\main.scss'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\n\n\n//# sourceURL=webpack:///multi_@babel/polyfill_./src/assets/javascript/main.js_./src/assets/scss/main.scss?");
 
 /***/ })
 
